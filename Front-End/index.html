@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Front-End/style.css">
     <title>Images </title>
 </head>
 <body>
-
-
-    <form id="generate-images">
-        <input type="text" name="description" id="input-to-generate">
-        <button type="submit">انشاء</button>
-        <img src=""  id="image" alt="">
-    </form>
     
+
+    <h2>Images Generator !</h2>
+    <div class="images">
+        <img src="" style="border-radius: 20px;" width="40%" id="image" alt="">
+    </div>
+    <form id="generate-images">
+        <div class="prompt">
+            <input type="text" id="input-to-generate">
+        </div>
+        <button type="submit" class="create">Create !</button>
+    </form>
+   
+
 
 
     <script src="/Front-End/index.js"></script>
